@@ -1,5 +1,5 @@
 class Redis
   module ActiveSupport
-    VERSION = '4.0.0'
+    VERSION = '3.2.5'
   end
 end

@@ -20,12 +20,12 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_runtime_dependency 'redis-store',   '~> 1.1.0'
-  s.add_runtime_dependency 'activesupport', '~> 4'
+  # s.add_runtime_dependency 'activesupport', '~> 4'
 
   s.add_development_dependency 'rake',     '~> 10'
   s.add_development_dependency 'bundler',  '~> 1.3'
   s.add_development_dependency 'mocha',    '~> 0.14.0'
-  s.add_development_dependency 'minitest', '~> 4.2'
+  # s.add_development_dependency 'minitest', '~> 4.2'
   s.add_development_dependency 'redis-store-testing'
 end
 
